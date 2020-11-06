@@ -1,25 +1,6 @@
-# README
+# OKTA DEMO
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version : 2.7
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# okta_demo
+* Add below to your .envrc file if using direnv or place in bash file
+* export IDP_METADATA_URL="https://xxxxxxxx.okta.com/app/xxxxxxxxxxxxxxxxxx/sso/saml/metadata"
